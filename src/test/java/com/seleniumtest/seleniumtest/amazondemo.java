@@ -54,8 +54,8 @@ public class amazondemo {
 		}
 		@BeforeTest
 		public void beforeTest() {
-			System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
-			driver = new ChromeDriver();
+			System.setProperty("webdriver.chrome.driver","C:\\Program Files\\chromedriver_win32\\chromedriver.exe");
+		        driver=new ChromeDriver();
 		}
 
 		@AfterTest
